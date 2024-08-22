@@ -11,3 +11,185 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.shopping-cart {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+.shopping-cart h2 {
+  margin: 0 0 20px;
+  text-align: center;
+  color: purple;
+}
+
+.cart-item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+}
+
+.cart-item span {
+  margin-bottom: 5px;
+}
+
+.item-controls {
+  display: flex;
+  gap: 5px;
+}
+
+.item-controls button {
+  padding: 5px 10px;
+  border: none;
+  background-color: purple;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.item-controls button:disabled {
+  background-color: #ccc;
+}
+
+.add-items {
+  margin-top: 20px;
+}
+
+.add-items h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.add-items button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(148, 18, 148);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.add-items button:hover {
+  background-color:  purple;
+}
+
+.total-price {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+ */
+
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.shopping-cart {
+  background-color: rgb(255, 222, 255);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+.shopping-cart h2 {
+  margin: 0 0 20px;
+  text-align: center;
+  color: purple;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  border-radius: 8px;
+}
+
+
+.cart-item-name {
+  font-weight: bold;
+}
+
+.item-controls {
+  display: flex;
+  gap: 5px;
+}
+
+.item-controls button {
+  padding: 5px 10px;
+  border: none;
+  background-color: purple;
+  color: rgb(255, 255, 255);
+  border-radius: 4px;
+}
+
+.item-controls button:disabled {
+  background-color: purple;
+}
+
+.add-items {
+  margin-top: 20px;
+}
+
+.add-items h3 {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.add-items button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: rgb(163, 21, 163);
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.add-items button:hover {
+  background-color: purple;
+}
+
+.total-price {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+h3{
+  color: purple;
+}
